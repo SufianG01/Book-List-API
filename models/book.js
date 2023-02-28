@@ -1,6 +1,6 @@
 const mongoose = require(`mongoose`)
 
-// model = schema 
+// model = schema//
 
 const bookSchema = new mongoose.Schema({
     title: String,
