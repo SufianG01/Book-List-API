@@ -25,3 +25,4 @@ db.once(`open`, () => console.log(`connected to db`))
 app.listen(port, () => {
     console.log(`My app is listening on localhost:${port}`)
 })
+
