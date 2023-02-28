@@ -55,7 +55,7 @@ exports.show = function (req, res, next) {
   //     return (next(createError(404, "Book not found.")))
   // }
 
-  // res.send(booksItem)
+  // res.send(booksItem) // 
 };
 
 exports.delete = function (req, res, next) {
